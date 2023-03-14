@@ -109,3 +109,47 @@ body {
     border: none;
     background-color: #2A7AE4;
 }
+
+.products-titles {
+    margin-top: 50px;
+    margin-bottom: 16px;
+}
+
+.products-titles {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.products-titles h2 {
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.products-titles h4,
+.product-detail {
+    color: #2A7AE4;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+}
+
+.product-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-name {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 5px 0;
+}
+
+.product-price {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 5px 0;
+}
