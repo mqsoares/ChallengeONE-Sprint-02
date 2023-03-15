@@ -179,6 +179,10 @@ body {
     gap: 27px;
 }
 
+.map-site-item {
+    cursor: pointer;
+}
+
 .footer form {
     display: flex;
     flex-direction: column;
@@ -235,4 +239,12 @@ body {
     align-items: center;
     margin-top: 32px;
     margin-bottom: 32px;
+}
+
+.baseboard a {
+    text-decoration: none;
+}
+
+.github-img {
+    width: 17px;
 }
