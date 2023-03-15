@@ -66,6 +66,12 @@ body {
     cursor: pointer;
 }
 
+.btn:hover {
+    background-color: #2a7be47e;
+    border: 2px solid #2A7AE4;
+    color: #fff;
+}
+
 .btn-1 {
     color: #2A7AE4;
     border: 2px solid #2A7AE4;
