@@ -5,14 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - AluraGeek</title>
-    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <link rel="stylesheet" href="../assets/css/reset-configure.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/login.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+
 </head>
 <body>
     <header class="header container ">
         <div class="header-logo">
-            <a href="#"><img src="../assets/img/Controler.png" alt="imagem da logo" class="controler-logo"></a>
-            <a href="#"><img src="../assets/img/Alura.png" alt="logo"></a>
-            <a href="#"><img src="../assets/img/Geek.png" alt="logo"></a>
+            <a href="../index.html"><img src="../assets/img/Controler.png" alt="imagem da logo" class="controler-logo"></a>
+            <a href="../index.html"><img src="../assets/img/Alura.png" alt="logo"></a>
+            <a href="../index.html"><img src="../assets/img/Geek.png" alt="logo"></a>
             <span class="header-search">
                 <input type="search" class="header-input" placeholder="O que deseja encontrar?">
                 <img src="../assets/img/search.png" class="header-input-img" alt="icone procurar">
@@ -20,16 +25,25 @@
         </div>
     </header>
     <main>
-        
+        <section class="login">
+            <form class="form-login">
+                <h4>Iniciar Sessão</h4>
+                <p class=" label-form label-form-name">Escreva seu email  </p>
+                <input class="form-input form-input-name"type="text">
+                <p class=" label-form label-form-name">Escreva sua senha</p>
+                <input class="form-input form-input-name"type="text">
+                <button class="btn btn-2 btn-login">Entrar</button>
+            </form>
+        </section>
        
     </main>
     <footer>
         <section class="footer">
             <section class="footer-section container">
                 <div class="header-logo">
-                    <a href="#"><img src="../assets/img/Controler.png" alt="Imagem da logo" class="controler-logo"></a>
-                    <a href="#"><img src="../assets/img/Alura.png" alt="logo"></a>
-                    <a href="#"><img src="../assets/img/Geek.png" alt="logo"></a>
+                    <a href="../index.html"><img src="../assets/img/Controler.png" alt="Imagem da logo" class="controler-logo"></a>
+                    <a href="../index.html"><img src="../assets/img/Alura.png" alt="logo"></a>
+                    <a href="../index.html"><img src="../assets/img/Geek.png" alt="logo"></a>
                 </div>
                 <div class="map-site">
                     <p class="map-site-item">Quem Somos nós</p>
@@ -57,6 +71,5 @@
             
         </section>
     </footer>
-    <!-- <script src="script.js"></script> -->
 </body>
 </html>
