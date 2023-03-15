@@ -8,7 +8,7 @@
 }
 
 body {
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin: 0 auto;
 }
 
@@ -30,7 +30,7 @@ body {
     cursor: pointer;
 }
 
-.controler {
+.controler-logo {
     margin-right: 5px;
 }
 
@@ -66,7 +66,7 @@ body {
     cursor: pointer;
 }
 
-.btn-login {
+.btn-1 {
     color: #2A7AE4;
     border: 2px solid #2A7AE4;
     background-color: transparent;
@@ -102,7 +102,7 @@ body {
     line-height: 26px;
 }
 
-.btn-consoles {
+.btn-2 {
     color: #FFF;
     font-size: 16px;
     line-height: 19px;
@@ -152,4 +152,81 @@ body {
     font-size: 16px;
     line-height: 19px;
     margin: 5px 0;
+}
+
+.footer {
+    background-color: #EAF2FD;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 64px 0;
+}
+
+.map-site {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.footer form {
+    display: flex;
+    flex-direction: column;
+    /* gap: 16px; */
+}
+
+.footer form input {
+    border-radius: 4px;
+    border: none;
+    outline: 0;
+}
+
+.form-input {
+    width: 560px;
+    padding-left: 10px;
+
+}
+
+.form-input-name {
+    height: 56px;
+    padding-top: 20px;
+}
+
+.form-input-mesg {
+    height: 82px;
+}
+
+.label-form {
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
+
+.label-form-name {
+    color: #A2A2A2;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.label-form-mesg {
+    color: #A2A2A2;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+
+.btn-form {
+    margin-top: 15px;
+}
+
+.baseboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
