@@ -1,0 +1,42 @@
+.header {
+    height: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.controler-logo {
+    margin-right: 5px;
+}
+
+.header-search {
+    margin-left: 32px;
+}
+
+.header-input {
+    border: none;
+    border-radius: 20px;
+    background-color: #F5F5F5;
+    width: 390px;
+    height: 40px;
+    outline: 0;
+    padding: 0 15px;
+}
+
+.header-input:focus {
+    border: 2px solid #2A7AE4;
+}
+
+.header-input-img {
+    width: 17px;
+    height: 17px;
+    position: relative;
+    top: 3px;
+    left: -35px;
+}

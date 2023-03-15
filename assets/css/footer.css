@@ -1,0 +1,90 @@
+.footer {
+    background-color: #EAF2FD;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 64px 0;
+}
+
+.map-site {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.map-site-item {
+    cursor: pointer;
+}
+
+.footer form {
+    display: flex;
+    flex-direction: column;
+    /* gap: 16px; */
+}
+
+.footer form input {
+    border-radius: 4px;
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.form-input {
+    width: 560px;
+    padding-left: 10px;
+
+}
+
+.form-input-name {
+    height: 56px;
+    padding-top: 20px;
+}
+
+.form-input-mesg {
+    height: 82px;
+}
+
+.label-form {
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
+
+.label-form-name {
+    color: #A2A2A2;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.label-form-mesg {
+    color: #A2A2A2;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+
+.btn-form {
+    margin-top: 15px;
+}
+
+.baseboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.baseboard a {
+    text-decoration: none;
+}
+
+.github-img {
+    width: 17px;
+}

@@ -1,0 +1,27 @@
+.hero {
+    /* background: url('/assets/img/hero.png'); */
+    height: 372px;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url('../img/hero.png');
+    background-position: center;
+    display: flex;
+    align-items: end;
+}
+
+.hero-write {
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    margin-bottom: 38px;
+}
+
+.hero-title {
+    font-size: 52px;
+    line-height: 61px;
+}
+
+.hero-subtitle {
+    font-size: 22px;
+    line-height: 26px;
+}
