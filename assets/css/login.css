@@ -37,3 +37,7 @@
     margin-top: 24px;
     width: 560px;
 }
+
+.footer .login-footer {
+    margin-top: 0;
+}
