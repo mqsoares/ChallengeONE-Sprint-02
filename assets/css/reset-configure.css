@@ -63,3 +63,11 @@ input:focus {
     border: none;
     background-color: #2A7AE4;
 }
+
+.footer .login-footer {
+    margin-top: 0;
+}
+
+.footer .product-footer {
+    margin-top: 0;
+}
