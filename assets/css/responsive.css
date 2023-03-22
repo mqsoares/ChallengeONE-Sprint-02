@@ -1,0 +1,50 @@
+@media (min-width: 1510px) {
+    .container {
+        width: 1136px;
+    }
+}
+
+@media (max-width: 1380px) {
+    .form-input {
+        width: 480px;
+    }
+}
+
+@media (max-width: 1272px) {
+    .container {
+        width: 92%;
+    }
+    
+    .map-site {        
+        margin:0 55px;
+    }
+
+    .form-input {
+        width: 520px;
+    }
+}
+
+@media (max-width: 1055px) {
+    .form-input {
+        width: 434px;
+    }
+}
+
+@media (max-width: 970px) {
+    .map-site {        
+        margin:0 20px;
+    }
+}
+
+@media (max-width: 890px) {
+    .map-site {        
+        margin-right: 45px;
+        margin-left: 0;
+    }
+    .header-input {
+        
+        width: 272px;
+        
+    }
+}
+
