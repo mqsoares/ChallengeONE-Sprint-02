@@ -11,10 +11,17 @@
     padding: 64px 0;
 }
 
+.footer-section .footer-left{
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .map-site {
     display: flex;
     flex-direction: column;
     gap: 27px;
+    margin: 0 65px;
 }
 
 .map-site-item {
