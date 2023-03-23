@@ -43,14 +43,14 @@
 
 .product-row {
     display: flex;
-    /* justify-content: space-between; */
     flex-direction: row;
-    flex-wrap: wrap;
-    gap: 16px;
+    gap: 15px;
+    overflow: hidden;
 }
 
 .products-body {
     cursor: pointer;
+    flex-grow: 1;
 }
 
 .products-body:hover {
