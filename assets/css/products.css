@@ -53,10 +53,16 @@
     flex-grow: 1;
 }
 
+
 .products-body:hover {
     transform: scale(1.03);
     background-color: #e5e5e5;
     opacity: 0.8;
+}
+
+.products-body img{
+    width: 176px;
+    height: 174px;
 }
 
 .product-name {

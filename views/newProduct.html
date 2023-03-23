@@ -28,27 +28,31 @@
     </header>
     <main>
         <section class="newProduct login ">
-            <form class="form-newProduct form-login">
+            <form class="form-newProduct form-login" data-form-newProd>
                 <h2>Adicionar novo produto</h2>
                 <div>
                     <p class=" label-form label-form-name">URL da imagem</p>
-                    <input class="form-input form-input-name"type="text">
+                    <input class="form-input form-input-name"type="text" data-imgURL>
+                </div>
+                <div>
+                    <p class=" label-form label-form-name">Texto Alt</p>
+                    <input class="form-input form-input-name"type="text" data-alt>
                 </div>
                 <div>
                     <p class=" label-form label-form-name">Categoria</p>
-                    <input class="form-input form-input-name"type="text">
+                    <input class="form-input form-input-name"type="text" data-category>
                 </div>
                 <div>
                     <p class=" label-form label-form-name">Nome do produto</p>
-                    <input class="form-input form-input-name"type="text">
+                    <input class="form-input form-input-name"type="text" data-nameProd>
                 </div>
                 <div>
                     <p class=" label-form label-form-name">Preço do produto</p>
-                    <input class="form-input form-input-name"type="text">
+                    <input class="form-input form-input-name"type="text" data-priceProd>
                 </div>
                 <div>
                     <p class=" label-form label-form-name">Descrição do produto</p>
-                    <input class="form-input form-input-name"type="text">
+                    <input class="form-input form-input-name"type="text" data-descProd>
                 </div>
                 <button class="btn btn-2 btn-login">Adicionar produto</button>
             </form>
@@ -87,5 +91,6 @@
             
         </section>
     </footer>
+    <script type="module" src="../controller/newProducts-controller.js"></script>
 </body>
 </html>
