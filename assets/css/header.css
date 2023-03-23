@@ -5,18 +5,8 @@
     justify-content: space-between;
 }
 
-.header-logo {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
-
-.logo:hover {
-    transform: scale(1.03);
-}
-
 .header-search {
-    margin-left: 32px;
+    margin-right: 150px;
 }
 
 .header-input {
