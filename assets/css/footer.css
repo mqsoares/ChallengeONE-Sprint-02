@@ -90,3 +90,7 @@
 .github-img {
     width: 17px;
 }
+
+.footer-section.footer-container {
+    margin-top: 0;
+}
