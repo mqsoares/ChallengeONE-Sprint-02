@@ -1,3 +1,11 @@
+.header-login {
+    justify-content: flex-start;
+}
+
+.header-login .header-input {
+    margin-left: 30px;
+}
+
 .login {
     background-color: #F5F5F5;
     height: 70vh;
@@ -16,9 +24,9 @@
     line-height: 21px;
 }
 
-.form-login p {
+/* .form-login p {
     left: -220px;
-}
+} */
 
 .form-input {
     border-bottom: 1px solid #ccc;

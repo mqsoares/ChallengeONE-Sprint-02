@@ -5,7 +5,8 @@
 }
 
 @media (max-width: 1380px) {
-    .form-input {
+     .form-input,
+     .btn-login {
         width: 480px;
     }
 }
@@ -19,13 +20,13 @@
         margin:0 55px;
     }
 
-    .form-input {
+    .footer div form .form-input {
         width: 520px;
     }
 }
 
 @media (max-width: 1055px) {
-    .form-input {
+    .footer div form .form-input {
         width: 434px;
     }
 
@@ -51,8 +52,16 @@
 }
 
 @media (max-width: 775px) {
+    .header {
+        justify-content: space-around;
+    }
+
     .header-input {        
         display: none;
+    }
+
+    .header-login {
+        justify-content: space-between;
     }
 
     .header-search {
@@ -71,6 +80,10 @@
 
     .hero-subtitle {
         font-size: 18px;
+    }
+
+    .btn-login {
+        width: 182px;
     }
 
     .footer-section {
@@ -101,14 +114,11 @@
 }
 
 @media (max-width: 460px) {
-    .form-input {
-        width: 328px;        
-    }
-
+       
     .header .btn {
         width: 100px;
     }
-
+    
     .hero-title {
         font-size: 28px;
         line-height: 26px;
@@ -119,5 +129,9 @@
         line-height: 16px;
     }
     
+    .footer div form .form-input,
+    .form-input {
+        width: 328px;        
+    }
 }
 

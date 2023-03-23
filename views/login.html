@@ -10,26 +10,32 @@
     <link rel="stylesheet" href="../assets/css/header.css">
     <link rel="stylesheet" href="../assets/css/login.css">
     <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+
 
 </head>
 <body>
-    <header class="header container ">
+    <header class="header container header-login">
         <div class="header-logo">
-            <a href="../index.html"><img src="../assets/img/Logo.png" alt="logo" class="logo"></a> 
-            <span class="header-search">
-                <input type="search" class="header-input" placeholder="O que deseja encontrar?">
-                <img src="../assets/img/search.png" class="header-input-img" alt="icone procurar">
-            </span>
+            <a href="../index.html"><img src="../assets/img/Logo.png" alt="logo AluraGeek" class="logo"></a>
         </div>
+        <span class="header-search">
+            <input type="search" class="header-input" placeholder="O que deseja encontrar?">
+            <img src="../assets/img/search.png" class="header-input-img" alt="icone procurar">
+        </span>    
     </header>
     <main>
         <section class="login">
             <form class="form-login">
                 <h4>Iniciar Sessão</h4>
-                <p class=" label-form label-form-name">Escreva seu email  </p>
-                <input class="form-input form-input-name"type="text">
-                <p class=" label-form label-form-name">Escreva sua senha</p>
-                <input class="form-input form-input-name"type="text">
+                <div>
+                    <p class=" label-form label-form-name">Escreva seu email  </p>
+                    <input class="form-input form-input-name"type="text">
+                </div>
+                <div>
+                    <p class=" label-form label-form-name">Escreva sua senha</p>
+                    <input class="form-input form-input-name"type="text">
+                </div>
                 <button class="btn btn-2 btn-login">Entrar</button>
             </form>
         </section>
@@ -37,18 +43,18 @@
     </main>
     <footer>
         <section class="footer">
-            <section class="footer-section container login-footer">
-                <div class="header-logo">
-                    <a href="../index.html"><img src="../assets/img/Logo.png" alt="logo" class="logo"></a>
-                </div>
-                <div class="map-site">
-                    <p class="map-site-item">Quem Somos nós</p>
-                    <p class="map-site-item">Política de privacidade</p>
-                    <p class="map-site-item">Programa fidelidade</p>
-                    <p class="map-site-item">Nossas lojas</p>
-                    <p class="map-site-item">Quero ser franqueado</p>
-                    <p class="map-site-item">anuncie aqui</p>
-                </div>
+            <section class="footer-section container">
+                <div class="header-logo footer-left">
+                    <a href="#"><img src="../assets/img/Logo.png" alt="imagem da logo" class="logo"></a> 
+                    <div class="map-site">
+                        <p class="map-site-item">Quem Somos nós</p>
+                        <p class="map-site-item">Política de privacidade</p>
+                        <p class="map-site-item">Programa fidelidade</p>
+                        <p class="map-site-item">Nossas lojas</p>
+                        <p class="map-site-item">Quero ser franqueado</p>
+                        <p class="map-site-item">anuncie aqui</p>
+                    </div>
+                </div>                
                 <div>
                     <form>
                         <p><b>Fale conosco</b></p>
