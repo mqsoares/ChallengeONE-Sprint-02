@@ -64,6 +64,15 @@
         position: inherit;
     }
 
+    .hero-title {
+        font-size: 42px;
+    }
+
+
+    .hero-subtitle {
+        font-size: 18px;
+    }
+
     .footer-section {
         flex-direction: column;
         align-items: center;
@@ -81,7 +90,14 @@
         align-items: center;
     }
 
+}
+
+
+@media (max-width: 520px) {
     
+    .hero-title {
+        font-size: 38px;
+    }    
 }
 
 @media (max-width: 460px) {
@@ -91,6 +107,16 @@
 
     .header .btn {
         width: 100px;
+    }
+
+    .hero-title {
+        font-size: 28px;
+        line-height: 26px;
+    }
+    
+    .hero-subtitle {
+        font-size: 15px;
+        line-height: 16px;
     }
     
 }
