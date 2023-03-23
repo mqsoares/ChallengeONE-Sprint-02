@@ -86,8 +86,11 @@
 
 @media (max-width: 460px) {
     .form-input {
-        width: 328px;
-        
+        width: 328px;        
+    }
+
+    .header .btn {
+        width: 100px;
     }
     
 }
