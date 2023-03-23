@@ -1,5 +1,11 @@
 import { poductsServices } from '../services/products-services.js';
 
+const btnAddProduct = document.querySelector('[data-btn-addProd]')
+btnAddProduct.addEventListener('click', (e) => {
+    e.preventDefault()
+    window.location.href = './newProduct.html'
+})
+
 const newProduct = (id, imgURL, alt, name, price, description) => {
 
     const card = document.createElement('div');        
