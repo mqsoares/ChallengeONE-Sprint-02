@@ -178,12 +178,12 @@
                     </div>
                 </div>                
                 <div>
-                    <form>
+                    <form data-newMessage>
                         <p><b>Fale conosco</b></p>
                         <p class=" label-form label-form-name">Nome</p>
-                        <input class="form-input form-input-name"type="text">
+                        <input class="form-input form-input-name"type="text" data-name-mess>
                         <p class=" label-form label-form-mesg">Escreva sua mensagem</p>
-                        <input class="form-input form-input-mesg" type="text">
+                        <input class="form-input form-input-mesg" type="text" data-mess>
                         <button class="btn btn-2 btn-form">Enviar mensagem</button>
                     </form>
                 </div>
@@ -196,5 +196,6 @@
         </section>
     </footer>
     <script src="./controller/login-controller.js"></script>
+    <script type="module" src="./controller/newMessage-controller.js"></script>
 </body>
 </html>
