@@ -26,7 +26,8 @@
 }
 
 @media (max-width: 1055px) {
-    .footer div form .form-input {
+     .form-input,
+     .btn-login {
         width: 434px;
     }
 
@@ -107,10 +108,14 @@
 
 
 @media (max-width: 520px) {
-    
     .hero-title {
         font-size: 38px;
-    }    
+    }
+
+    .footer div form .form-input,
+    .form-input {
+        width: 350px;        
+    }
 }
 
 @media (max-width: 460px) {
