@@ -28,6 +28,10 @@
     .form-input {
         width: 434px;
     }
+
+    .header-search {
+        margin-right: 50px;
+    }
 }
 
 @media (max-width: 970px) {
@@ -42,9 +46,23 @@
         margin-left: 0;
     }
     .header-input {
-        
         width: 272px;
-        
     }
+}
+
+@media (max-width: 775px) {
+    .header-input {        
+        display: none;
+    }
+
+    .header-search {
+        margin-right: 0;
+        order: 1;
+    }
+
+    .header-input-img {
+        position: inherit;
+    }
+    
 }
 

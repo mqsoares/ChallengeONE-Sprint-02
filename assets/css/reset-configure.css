@@ -45,7 +45,10 @@ input:focus {
     border: 2px solid #2A7AE4;
     color: #fff;
     transform: scale(1.02);
+}
 
+.logo:hover {
+    transform: scale(1.03);
 }
 
 .btn-1 {
