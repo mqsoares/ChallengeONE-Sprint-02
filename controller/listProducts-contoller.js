@@ -18,17 +18,27 @@ const newProduct = (id, imgURL, alt, name, price, description) => {
                 <p class="product-detail">Ver Produto</p>
             </div>
             <span class="product-btn-control">
-                <a href="#"><img src="../assets/img/del.svg" alt="botão excluir" class="btn-simple btn-del" ></a>
-                <a href="#"><img src="../assets/img/edit.svg" alt="botão editar" class="btn-simple btn-edit "></a>
+                <a href="#" class="product-link-del"><img src="../assets/img/del.svg" alt="botão excluir" class="btn-simple btn-del" ></a>
+                <a href="#" class="product-link-edit"><img src="../assets/img/edit.svg" alt="botão editar" class="btn-simple btn-edit "></a>
             </span>
         </div>
     `
     card.innerHTML = template
-
+    card.dataset.id = id
+    console.log(card)
     return card
 }
 
 const tableProduct = document.querySelector('[data-product]')
+
+tableProduct.addEventListener('click', async (e) => {
+    if(e.target.className === "btn-simple btn-del"){
+        const rowProd = e.target.closest('[data-id]')
+        const id = rowProd.dataset.id
+        await poductsServices.deleteProduct(id)
+        rowProd.remove()        
+    }   
+})
 
 const render =  async () => {
     const clienteServ = await poductsServices.listProducts()

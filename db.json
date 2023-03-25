@@ -26,6 +26,33 @@
       "price": "80,00",
       "description": "link teste que peguei na net",
       "id": 3
+    },
+    {
+      "imgURL": "http://analogias.com.br/wp-content/uploads/2018/02/FOTO_PRODUTO_LOJA_VIRTUAL-17.jpg",
+      "alt": "teste",
+      "category": "sei la ",
+      "name": "alguma coisa ai ",
+      "price": "80,00",
+      "description": "link teste que peguei na net",
+      "id": 4
+    },
+    {
+      "imgURL": "http://analogias.com.br/wp-content/uploads/2018/02/FOTO_PRODUTO_LOJA_VIRTUAL-17.jpg",
+      "alt": "teste",
+      "category": "sei la ",
+      "name": "alguma coisa ai ",
+      "price": "80,00",
+      "description": "link teste que peguei na net",
+      "id": 5
+    },
+    {
+      "imgURL": "http://analogias.com.br/wp-content/uploads/2018/02/FOTO_PRODUTO_LOJA_VIRTUAL-17.jpg",
+      "alt": "teste",
+      "category": "sei la ",
+      "name": "alguma coisa ai ",
+      "price": "80,00",
+      "description": "link teste que peguei na net",
+      "id": 6
     }
   ],
   "message": [

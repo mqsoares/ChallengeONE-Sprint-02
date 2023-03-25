@@ -38,12 +38,18 @@ const createMessage = async (name, message, id) => {
     })
 }
 
+const deleteProduct = async (id) => {
+    const response = await fetch(`http://localhost:3000/products/${id}`, {
+        method: 'DELETE'
+    })
+}
+
 
 export const poductsServices = {
     listProducts,
     createProduct,
-
-    createMessage
+    createMessage,
+    deleteProduct
 }
 
 
