@@ -4,8 +4,8 @@
       "imgURL": "../assets/img/listProducts/xyz1.png",
       "alt": "produto tal",
       "category": "produto tal",
-      "name": "Produto teste 1",
-      "price": "60,00",
+      "name": "Prod",
+      "price": "160,00",
       "description": "If you make POST, PUT, PATCH or DELETE requests, changes will be automatically and safely saved to",
       "id": 1
     },
@@ -23,18 +23,9 @@
       "alt": "teste",
       "category": "sei la ",
       "name": "alguma coisa ai ",
-      "price": "80,00",
+      "price": "180,00",
       "description": "link teste que peguei na net",
       "id": 3
-    },
-    {
-      "imgURL": "http://analogias.com.br/wp-content/uploads/2018/02/FOTO_PRODUTO_LOJA_VIRTUAL-17.jpg",
-      "alt": "teste",
-      "category": "sei la ",
-      "name": "alguma coisa ai ",
-      "price": "80,00",
-      "description": "link teste que peguei na net",
-      "id": 4
     },
     {
       "imgURL": "http://analogias.com.br/wp-content/uploads/2018/02/FOTO_PRODUTO_LOJA_VIRTUAL-17.jpg",

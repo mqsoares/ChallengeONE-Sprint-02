@@ -19,7 +19,7 @@ const newProduct = (id, imgURL, alt, name, price, description) => {
             </div>
             <span class="product-btn-control">
                 <a href="#" class="product-link-del"><img src="../assets/img/del.svg" alt="botão excluir" class="btn-simple btn-del" ></a>
-                <a href="#" class="product-link-edit"><img src="../assets/img/edit.svg" alt="botão editar" class="btn-simple btn-edit "></a>
+                <a href="./editProduct.html?id=${id}" class="product-link-edit"><img src="../assets/img/edit.svg" alt="botão editar" class="btn-simple btn-edit "></a>
             </span>
         </div>
     `
