@@ -44,13 +44,19 @@
 .product-row {
     display: flex;
     flex-direction: row;
+    /* justify-content: center; */
     gap: 15px;
-    overflow: hidden;
+    overflow: hidden;    
 }
 
-.products-body {
-    flex-grow: 1;
+.product-row-admin {
+    flex-wrap: wrap;
 }
+
+/* .product-row::after {
+    content: "";
+    flex: auto;
+} */
 
 
 .products-body:hover {
