@@ -41,9 +41,9 @@ tableProduct.addEventListener('click', async (e) => {
 })
 
 const render =  async () => {
-    const clienteServ = await poductsServices.listProducts()
+    const productServer = await poductsServices.listProducts()
     
-    clienteServ.map(el => {        
+    productServer.map(el => {        
         tableProduct.appendChild(newProduct(el.id, el.imgURL, el.alt, el.name, el.price, el.description))
     })
     
