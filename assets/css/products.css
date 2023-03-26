@@ -49,10 +49,10 @@
     overflow: hidden;    
 }
 
-.product-row-admin {
+.product-row-admin,
+.product-row-lp {
     flex-wrap: wrap;
 }
-
 /* .product-row::after {
     content: "";
     flex: auto;
