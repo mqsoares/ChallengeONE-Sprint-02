@@ -1,13 +1,13 @@
 {
   "products": [
     {
-      "id": 1,
       "imgURL": "https://github.com/mqsoares/ChallengeONE-Sprint-02/blob/main/assets/img/listProducts/xyz1.png?raw=true",
       "alt": "produto tal",
-      "name": "Produto 1",
       "category": "star wars",
-      "price": "60,00",
-      "description": "If you make POST, PUT, PATCH or DELETE requests, changes will be automatically and safely saved to"
+      "name": "Produto 1",
+      "price": "160,00",
+      "description": "If you make POST, PUT, PATCH or DELETE requests, changes will be automatically and safely saved to",
+      "id": 1
     },
     {
       "id": 2,

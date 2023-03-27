@@ -32,27 +32,33 @@
                 <h2>Adicionar novo produto</h2>
                 <div>
                     <p class=" label-form label-form-name">URL da imagem</p>
-                    <input class="form-input form-input-name"type="text" data-imgURL>
+                    <input class="form-input form-input-name required"type="text" data-imgURL>
+                    <span class="span-required">Insira uma URL</span>
                 </div>
                 <div>
                     <p class=" label-form label-form-name">Texto Alt</p>
-                    <input class="form-input form-input-name"type="text" data-alt>
+                    <input class="form-input form-input-name required"type="text" maxlength="50" data-alt>
+                    <span class="span-required">Insira um texto alternativo para esse produto.</span>
                 </div>
                 <div>
                     <p class=" label-form label-form-name">Categoria</p>
-                    <input class="form-input form-input-name"type="text" data-category>
+                    <input class="form-input form-input-name required"type="text" maxlength="20" data-category>
+                    <span class="span-required">Insira a categoria do produto.</span>
                 </div>
                 <div>
                     <p class=" label-form label-form-name">Nome do produto</p>
-                    <input class="form-input form-input-name"type="text" data-nameProd>
+                    <input class="form-input form-input-name required"type="text" data-nameProd>
+                    <span class="span-required">Insira um "Nome" válido. No mínimo 2 caracteres.</span>
                 </div>
                 <div>
                     <p class=" label-form label-form-name">Preço do produto</p>
-                    <input class="form-input form-input-name"type="text" data-priceProd>
+                    <input class="form-input form-input-name required"type="text" data-priceProd>
+                    <span class="span-required">Insira um "Preço" válido. Duas casas decimais Ex. 12,50</span>
                 </div>
                 <div>
                     <p class=" label-form label-form-name">Descrição do produto</p>
-                    <input class="form-input form-input-name"type="text" data-descProd>
+                    <input class="form-input form-input-name required"type="text" data-descProd>
+                    <span class="span-required">Descreva em poucas palavras esse produto.</span>
                 </div>
                 <button class="btn btn-2 btn-login">Adicionar produto</button>
             </form>
