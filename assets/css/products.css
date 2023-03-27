@@ -46,7 +46,11 @@
     flex-direction: row;
     /* justify-content: center; */
     gap: 15px;
-    overflow: hidden;    
+    overflow: hidden;
+}
+
+.row-1 {
+    flex-wrap: wrap;
 }
 
 .product-row-admin,
