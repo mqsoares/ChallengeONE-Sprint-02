@@ -1,0 +1,10 @@
+.span-required {
+    display: none;
+    font-size: 0.7rem;
+    margin-left: 5px;
+    color: #ff0000;
+}
+
+/* .required {
+    border: inherit
+} */
