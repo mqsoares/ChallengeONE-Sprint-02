@@ -39,20 +39,22 @@ Usamos o JSON server simulando uma API, para criação de um `CRUD / Create, Rea
 Para mais detalhes acesse: https://www.npmjs.com/package/json-server
 
 ### :warning: Como iniciar esse projeto.
-#### 1 - Clonar o projeto (baixar para sua maquina) Via HTTPS ou SSH
+Se preferir nao ter que baixar tudo, basta baixar o arquivo `db.json` dentro da pasta onde salvar esse arquivo, execute o Passo 3 para rodar o servidor e acesse o link do projeto no pages... https://mqsoares.github.io/ChallengeONE-Sprint-02/
+
+#### Passo 1 - Clonar o projeto (baixar para sua maquina) Via HTTPS ou SSH
 
  HTTPS `git clone https://github.com/mqsoares/ChallengeONE-Sprint-02.git`
  <br>
  SSH `git clone git@github.com:mqsoares/ChallengeONE-Sprint-02.git`
  
-#### 2 - Instalar o NodeJS
+#### Passo 2 - Instalar o NodeJS
 Para mais detalhes acesse: https://nodejs.org/pt-br
 
-#### 3 - Subir a fake API 
+#### Passo 3 - Subir a fake API 
 No terminal dentro da pasta do projeto, deve ser executado o comando `npx json-server --watch db.json` <br> 
 LEMBRANDO, que caso execute o comando fora da pasta do projeto ele não vai ser reconhecido.
 
-#### 4 - Abrir o sistema
+#### Passo 4 - Abrir o sistema
 Utilize a extensão do Live Server do VS Code para abrir o sistema.
 Para mais detalhes acesse: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
  
