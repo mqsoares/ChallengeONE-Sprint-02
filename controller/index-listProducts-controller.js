@@ -2,10 +2,36 @@ import { poductsServices } from '../services/products-services.js';
 
 
 const btnLogin = document.querySelector('[data-login]')
+const btnConsoles = document.querySelector('[data-btn-consoles]')
+
+const seeMore = document.querySelectorAll('.seeMore')
+const productRows = document.querySelectorAll('.product-row')
 
 btnLogin.addEventListener('click', () => {
     window.location.href = './views/login.html'
 })
+
+btnConsoles.addEventListener('click', () => {
+    window.location.href = './views/listProducts-consoles.html'
+})
+
+seeMore.forEach(el => {
+    el.addEventListener('click', (e) => {
+
+        productRows.forEach(el => {
+            el.classList.toggle('row-1')      
+        })
+
+        if(el.classList.toggle('seeLess')) {
+            e.target.innerHTML = 'Ver menos 🡪'
+            
+        } else {
+            e.target.innerHTML = 'Ver mais 🡪'
+           // tableProductStar.style['flex-wrap'] = 'nowrap'
+        }
+    })
+})
+
 
 const newProductList = (imgURL, alt, name, price) => {
 
@@ -32,7 +58,7 @@ const tableProductDiversos = document.querySelector('[data-product-diversos]')
 
 const render =  async () => {
     const productsServ = await poductsServices.listProducts()
-    console.log(productsServ)
+    // console.log(productsServ)
     
     productsServ.map(el => {       
         const products = newProductList(el.imgURL, el.alt, el.name, el.price)
