@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "imgURL": "../assets/img/listProducts/xyz1.png",
+      "imgURL": "https://github.com/mqsoares/ChallengeONE-Sprint-02/blob/main/assets/img/listProducts/xyz1.png?raw=true",
       "alt": "produto tal",
       "name": "Produto 1",
       "category": "star wars",
@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "imgURL": "../assets/img/listProducts/xyz2.png",
+      "imgURL": "https://github.com/mqsoares/ChallengeONE-Sprint-02/blob/main/assets/img/listProducts/xyz2.png?raw=true",
       "alt": "produto qual",
       "name": "Produto 2",
       "category": "star wars",
@@ -20,7 +20,7 @@
     },
     {
       "id": 3,
-      "imgURL": "../assets/img/listProducts/xyz3.png",
+      "imgURL": "https://github.com/mqsoares/ChallengeONE-Sprint-02/blob/main/assets/img/listProducts/xyz3.png?raw=true",
       "alt": "produto qual",
       "name": "Produto 3",
       "category": "star wars",
@@ -29,7 +29,7 @@
     },
     {
       "id": 4,
-      "imgURL": "../assets/img/listProducts/xyz4.png",
+      "imgURL": "https://github.com/mqsoares/ChallengeONE-Sprint-02/blob/main/assets/img/listProducts/xyz4.png?raw=true",
       "alt": "produto qual",
       "name": "Produto 4",
       "category": "star wars",
@@ -38,7 +38,7 @@
     },
     {
       "id": 5,
-      "imgURL": "../assets/img/listProducts/xyz5.png",
+      "imgURL": "https://github.com/mqsoares/ChallengeONE-Sprint-02/blob/main/assets/img/listProducts/xyz5.png?raw=true",
       "alt": "produto qual",
       "name": "Produto 5",
       "category": "star wars",
@@ -47,7 +47,7 @@
     },
     {
       "id": 6,
-      "imgURL": "../assets/img/listProducts/xyz6.png",
+      "imgURL": "https://github.com/mqsoares/ChallengeONE-Sprint-02/blob/main/assets/img/listProducts/xyz6.png?raw=true",
       "alt": "produto qual",
       "name": "Produto 6",
       "category": "star wars",
@@ -56,7 +56,7 @@
     },
     {
       "id": 7,
-      "imgURL": "../assets/img/listProducts/xyz7.png",
+      "imgURL": "https://github.com/mqsoares/ChallengeONE-Sprint-02/blob/main/assets/img/listProducts/xyz7.png?raw=true",
       "alt": "produto qual",
       "name": "Produto 7",
       "category": "consoles",
@@ -65,7 +65,7 @@
     },
     {
       "id": 8,
-      "imgURL": "../assets/img/listProducts/xyz8.png",
+      "imgURL": "https://github.com/mqsoares/ChallengeONE-Sprint-02/blob/main/assets/img/listProducts/xyz8.png?raw=true",
       "alt": "produto qual",
       "name": "Produto 8",
       "category": "consoles",
@@ -74,7 +74,7 @@
     },
     {
       "id": 9,
-      "imgURL": "../assets/img/listProducts/xyz9.png",
+      "imgURL": "https://github.com/mqsoares/ChallengeONE-Sprint-02/blob/main/assets/img/listProducts/xyz9.png?raw=true",
       "alt": "produto qual",
       "name": "Produto 9",
       "category": "consoles",
@@ -83,7 +83,7 @@
     },
     {
       "id": 10,
-      "imgURL": "../assets/img/listProducts/xyz10.png",
+      "imgURL": "https://github.com/mqsoares/ChallengeONE-Sprint-02/blob/main/assets/img/listProducts/xyz10.png?raw=true",
       "alt": "produto qual",
       "name": "Produto 10",
       "category": "consoles",
@@ -92,7 +92,7 @@
     },
     {
       "id": 11,
-      "imgURL": "../assets/img/listProducts/xyz11.png",
+      "imgURL": "https://github.com/mqsoares/ChallengeONE-Sprint-02/blob/main/assets/img/listProducts/xyz11.png?raw=true",
       "alt": "produto qual",
       "name": "Produto 11",
       "category": "consoles",
@@ -101,7 +101,7 @@
     },
     {
       "id": 12,
-      "imgURL": "../assets/img/listProducts/xyz12.png",
+      "imgURL": "https://github.com/mqsoares/ChallengeONE-Sprint-02/blob/main/assets/img/listProducts/xyz12.png?raw=true",
       "alt": "produto qual",
       "name": "Produto 12",
       "category": "consoles",
@@ -110,7 +110,7 @@
     },
     {
       "id": 13,
-      "imgURL": "../assets/img/listProducts/xyz13.png",
+      "imgURL": "https://github.com/mqsoares/ChallengeONE-Sprint-02/blob/main/assets/img/listProducts/xyz13.png?raw=true",
       "alt": "produto qual",
       "name": "Produto 13",
       "category": "diversos",
@@ -119,7 +119,7 @@
     },
     {
       "id": 14,
-      "imgURL": "../assets/img/listProducts/xyz14.png",
+      "imgURL": "https://github.com/mqsoares/ChallengeONE-Sprint-02/blob/main/assets/img/listProducts/xyz14.png?raw=true",
       "alt": "produto qual",
       "name": "Produto 14",
       "category": "diversos",
@@ -128,7 +128,7 @@
     },
     {
       "id": 15,
-      "imgURL": "../assets/img/listProducts/xyz15.png",
+      "imgURL": "https://github.com/mqsoares/ChallengeONE-Sprint-02/blob/main/assets/img/listProducts/xyz15.png?raw=true",
       "alt": "produto qual",
       "name": "Produto 15",
       "category": "diversos",
@@ -137,7 +137,7 @@
     },
     {
       "id": 16,
-      "imgURL": "../assets/img/listProducts/xyz16.png",
+      "imgURL": "https://github.com/mqsoares/ChallengeONE-Sprint-02/blob/main/assets/img/listProducts/xyz16.png?raw=true",
       "alt": "produto qual",
       "name": "Produto 16",
       "category": "diversos",
@@ -146,7 +146,7 @@
     },
     {
       "id": 17,
-      "imgURL": "../assets/img/listProducts/xyz17.png",
+      "imgURL": "https://github.com/mqsoares/ChallengeONE-Sprint-02/blob/main/assets/img/listProducts/xyz17.png?raw=true",
       "alt": "produto qual",
       "name": "Produto 17",
       "category": "diversos",
@@ -155,7 +155,7 @@
     },
     {
       "id": 18,
-      "imgURL": "../assets/img/listProducts/xyz18.png",
+      "imgURL": "https://github.com/mqsoares/ChallengeONE-Sprint-02/blob/main/assets/img/listProducts/xyz18.png?raw=true",
       "alt": "produto qual",
       "name": "Produto 18",
       "category": "diversos",
