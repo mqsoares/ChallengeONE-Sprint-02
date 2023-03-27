@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <img alt="mockup" src="./assets/vt/aluraGeek.gif" width="100%">
+  <img alt="mockup" src="./assets/vt/Alurageek.gif" width="100%">
 </p>
 
 </div>
